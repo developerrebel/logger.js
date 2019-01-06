@@ -1,0 +1,21 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "simple easy to use logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "logger",
+    "logging",
+    "file",
+    "logger",
+    "log",
+    "node",
+    "easy",
+    "simple"
+  ],
+  "author": "x_rebelfighter_x",
+  "license": "ISC"
+}
