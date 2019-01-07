@@ -1,6 +1,6 @@
 const util = require('util');
-module.exports = overwrite => {
-	if (!overwrite) {
+module.exports = noOverwrite => {
+	if (noOverwrite) {
 	}
 
 	console.log = message => {
