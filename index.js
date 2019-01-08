@@ -42,6 +42,11 @@ module.exports = async function(overwrite, logPath) {
 	}
 
 	if (overwrite) {
+		/**
+		 * @param {String | Object | Array | Number | Boolean} message The message you want to send to the console
+		 * @return {Undefined} Nothing
+		 */
+
 		console.log = message => {
 			const logMessage = `[${new Date().toLocaleDateString(Date.now())} ${new Date().toLocaleTimeString(
 				Date.now()
@@ -57,6 +62,11 @@ module.exports = async function(overwrite, logPath) {
 			if (logPath) log(logMessageStandard);
 		};
 	}
+
+	/**
+	 * @param {String | Object | Array | Number | Boolean} message The message you want to send to the console
+	 * @return {Undefined} Nothing
+	 */
 
 	return message => {
 		const logMessage = `[${new Date().toLocaleDateString(Date.now())} ${new Date().toLocaleTimeString(
