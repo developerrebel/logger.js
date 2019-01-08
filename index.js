@@ -54,7 +54,7 @@ module.exports = async function(overwrite, logPath) {
 			)}]: ${typeof message === 'object' ? '\n' + util.inspect(message) + '\n\n' : message + '\n'}`;
 
 			process.stdout.write(logMessage);
-			log(logMessageStandard);
+			if (logPath) log(logMessageStandard);
 		};
 	}
 
@@ -68,6 +68,6 @@ module.exports = async function(overwrite, logPath) {
 		)}]: ${typeof message === 'object' ? '\n' + util.inspect(message) + '\n\n' : message + '\n'}`;
 
 		process.stdout.write(logMessage);
-		log(logMessageStandard);
+		if (logPath) log(logMessageStandard);
 	};
 };
