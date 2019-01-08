@@ -43,6 +43,7 @@ Again this works with or without the override. The path to the logs is the path 
 Console:
 
 ![Console](https://i.sdfx.ga/Jqn9X0aTKB.png)
+
 Log File:
 
 ![logFile](https://i.sdfx.ga/jQN9CCC9w6.png)
